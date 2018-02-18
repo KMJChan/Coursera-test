@@ -70,10 +70,10 @@ p {
     width: 100%;
   }
   /************Desktop Device ************/
-  @media (min-width: 992px) {}
+  @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11,.col-lg-12 {
       float: left;
-border: 3px solid green
+
   }
    .col-lg-1 {
     width: 8.33%;
@@ -92,13 +92,13 @@ border: 3px solid green
    }
   .col-lg-6 {
     width: 50%;
-  }
+   }
    .col-lg-7 {
     width: 58.33%;
    }
   .col-lg-8 {
     width: 66.33%;
-    }
+   }
    .col-lg-9 {
     width: 74.99%;
    }
@@ -111,9 +111,10 @@ border: 3px solid green
   .col-lg-12 {
     width: 100%;
   }
+   }
 
   /***************Tablet Device n********/
-  @media (min-width: 768px) and (max-width: 991px) {}
+  @media (min-width: 768px) and (max-width: 991px) {
     .col-lg-1, .col-lg-2, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11,.col-lg-12 {
       float: left;
 
@@ -155,6 +156,6 @@ border: 3px solid green
   .col-md-12 {
     width: 100%;
 }
-
+}
 
 
