@@ -80,7 +80,7 @@ p {
       float: left;
 border-right: 5px
   }
-}
+
    .col-lg-1 {
     width: 8.33%;
    }
@@ -117,7 +117,7 @@ border-right: 5px
   .col-lg-12 {
     width: 100%;
   }
-   }
+   
 
   /***************Tablet Device n********/
   @media (min-width: 768px) and (max-width: 991px) {
