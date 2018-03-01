@@ -17,7 +17,7 @@ font-family: 'Roboto', sans-serif;
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+  font-family: 'Roboto', serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -26,4 +26,7 @@ font-family: 'Roboto', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+}
+.navbar-band a:hover, .navbar-brand a:focus{
+	text-decoration:none;: 
 }
