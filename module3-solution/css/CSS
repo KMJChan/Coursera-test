@@ -1,1 +1,15 @@
 
+{
+font-size:16px;
+color: #fff;
+background-color: #61122f;
+font-family: 'Roboto', sans-serif;	
+}
+
+/** HEARDER **/
+#header-nav {
+	background-color: gray;
+	border-radus: 0;
+	border: 0;
+
+}
