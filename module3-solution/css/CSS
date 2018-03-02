@@ -20,6 +20,13 @@ font-family: 'Roboto', sans-serif;
 .navbar-brand {
   padding-top: 25px;
 }
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+ }   
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Roboto', serif;
   color:orange;
@@ -34,3 +41,57 @@ font-family: 'Roboto', sans-serif;
 .navbar-band a:hover, .navbar-brand a:focus{
 	text-decoration:none;: 
 }
+#section1 {
+  border: 2px solid red;
+  margin: 10px;
+  position: relative;
+  background-color: gray;
+  padding: 5px;
+}
+
+#section2 {
+
+  border: 2px solid red;
+  margin: 10px;
+  position: relative;
+  background-color: gray;
+  padding: 5px;
+}
+
+#section3 {
+
+  border: 2px solid red;
+  margin: 10px;
+  position: relative;
+  background-color: gray;
+  padding: 5px;
+}
+  #Chicken {
+    border: 2px solid red;
+    background-color: lightgreen;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #Beef {
+    border: 2px solid red;
+    background-color: lightpink;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #Sushi {
+    border: 2px solid red;
+    background-color: lightyellow;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
