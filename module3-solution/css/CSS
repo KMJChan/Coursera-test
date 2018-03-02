@@ -1,25 +1,29 @@
 
 {
 font-size:18px;
-color: #fff;
-background-color: darkgray;
+color: #ffccdd;
+background-color: #f0f5f5;
 font-family: 'Roboto', sans-serif;	
 }
 
 /** HEARDER **/
 #header-nav {
-	background-color: darkgray;
+	background-color: solid gray;
 	border-radus: 0;
 	border: 0;
-
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+ }
+    
 .navbar-brand {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Roboto', serif;
-  color:solid black;
-  font-size: 2.5em;
+  color:orange;
+  font-size: 1.7em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
