@@ -54,12 +54,11 @@ body {
 }
 .navbar-toggle .icon-bar{
 	display: block;
-	width: 22px;
-	height: 2px;
+	width: 12px;
+	height: 1px;
 	border-radius: 1px;
 
 }
-
 
 #collapsable-nav {
   font-weight: bold;
