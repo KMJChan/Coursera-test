@@ -35,7 +35,7 @@ body {
 #navbarbutton {
   font-weight: bold;
   border-color: #000;
-  background-color:#fec1c1;
+  background-color:darkorange;
 }
 .navbar-toggle {
   position: relative;
@@ -54,7 +54,7 @@ body {
 }
 .navbar-toggle .icon-bar{
 	display: block;
-	width: 12px;
+	width: 10px;
 	height: 1px;
 	border-radius: 1px;
 
