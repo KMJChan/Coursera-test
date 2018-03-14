@@ -98,7 +98,7 @@ h3 {
   background-color: gray;
   padding: 5px;
   height: 1000px;
-  overflow: scroll;   
+  overflow: auto;   
 }
 
 p {
