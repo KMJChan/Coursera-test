@@ -31,6 +31,7 @@ body {
   color: Black;
   font-size: 1.5em;
   
+  
   /*REmove*text-transform: unse/
   text-transform: unset;
   /*remove*/
@@ -117,7 +118,6 @@ h2{
   margin-top: 25px; 
   position: relative;
 
-
 }
 
 h3{
@@ -125,6 +125,7 @@ h3{
   margin-bottom: 25px;
   margin-top: 25px; 
   position: relative;
+  font-size: 26px;
 }
 
 #section {
@@ -132,9 +133,7 @@ h3{
   margin: 10px;
   position: relative;
   background-color: gray;
-  padding: 5px;
-  height: 1000px;
-  overflow: auto;   
+    
 }
 
 p {
