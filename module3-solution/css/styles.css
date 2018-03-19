@@ -56,7 +56,7 @@ body {
   margin-right: 15px;
   margin-bottom: 8px;
   background-color: #660000;
-  background-image: none;
+  
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -73,7 +73,7 @@ body {
 
 
 /*remove*/
-#collapsable-nav {
+  #collapsable-nav {
   font-weight: bold;
   border-color: #000;
   background-color:#fec1c1;
@@ -98,15 +98,12 @@ body {
   background: #86592d;
 
 }
-@media (min-width: 768px) {
-  .navbar-toggle{
-  display: none;
-  }
-}
+
+
 h1 {
   text-align: center;
   margin: .80em 0;
-  position: relative;
+  position: absolute;
   bottom: 25px;
   top: 25px;
 
@@ -116,7 +113,7 @@ h2{
   text-align: center;
   margin-bottom: 25px;
   margin-top: 25px; 
-  position: relative;
+  /*position: relative;*/
 
 }
 
@@ -128,14 +125,18 @@ h3{
   font-size: 26px;
 }
 
-#section {
+ #section {
   
   margin: 10px;
   position: relative;
   background-color: gray;
-  overflow: scroll;
-    
+  overflow: scroll;   
 }
+
+
+
+
+
 
 p {
 
@@ -145,18 +146,4 @@ padding: 0;
 
   
 
-   /*Simple responsive framework*/
-  .row {
-    width: 100%;
-  }
-  /************Desktop Device ************/
-   @media (min-width: 992px) {
-    .col-lg-12 {
-      float: left;
-border-right: 5px
-  
-}
-  .col-lg-12 {
-    width: 100%;
-  }
-   }
+   
