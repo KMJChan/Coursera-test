@@ -10,7 +10,7 @@
 // See Lecture 52, part 1
 // var helloSpeaker =
 
-  helloSpeaker.speak();
+  helloSpeaker.speak(window);
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
 var speakWord = "Hello";
@@ -21,7 +21,7 @@ var speakWord = "Hello";
 
  helloSpeaker.speak =function (name) {
 
-  console.log(speakWord + " helloSpeaker" + name);
+  console.log(speakWord + " " + helloSpeaker.name);
 }
 
 window.helloSpeaker.names = helloSpeaker;
