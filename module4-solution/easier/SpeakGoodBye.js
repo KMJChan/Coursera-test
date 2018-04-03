@@ -6,7 +6,7 @@
 
 (function (window) {
 
-var SpeakGoodBye = {}; 
+var speakWord = "Good Bye"; 
 
 
 
@@ -15,10 +15,11 @@ var SpeakGoodBye = {};
 // See Lecture 52, part 1
 // var byeSpeaker =
 
+var byeSpeaker ="{}";
 
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
-var speakWord = "Good Bye";
+
 
 // STEP 8: Rewrite the 'speak' function such that it is attached to the
 // byeSpeaker object instead of being a standalone function.
@@ -33,4 +34,4 @@ byeSpeaker.speak = function(name) {
 
 window. byeSpeaker = byeSpeaker;
 
-})(window);
+}) (window);
