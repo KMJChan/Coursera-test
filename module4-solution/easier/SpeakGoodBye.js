@@ -6,7 +6,7 @@
 
 (function (window) {
 
-var speakWord = "Good Bye"; 
+var speakWord = "{}"; 
 
 
 
@@ -15,7 +15,7 @@ var speakWord = "Good Bye";
 // See Lecture 52, part 1
 // var byeSpeaker =
 
-var byeSpeaker ="{}";
+var byeSpeaker.name ="Good Bye";
 
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
